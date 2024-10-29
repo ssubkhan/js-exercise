@@ -78,7 +78,15 @@ form label[for=mastercard] {
 /*** BEGIN HERE ***/
 /*Make sure to comment out line 32 above*/
 
-
+button{
+	cursor:wait;
+ }
+ 
+ @media screen and (prefers-reduced-motion){
+	button{
+		cursor: crosshair;
+	}
+ }
 
 
 

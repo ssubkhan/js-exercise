@@ -14,7 +14,7 @@
 
   <body>
 
-	<form  action = "#" method = "get">
+	<form  action = "#" method = "get" onsubmit="return checkEmails()">
 	<fieldset>
 		<legend>Your details</legend>
 		<ol>
@@ -60,7 +60,7 @@
     <fieldset>
 		<legend>Billing address</legend>
 		<ol>
-			<li><label for="bill-street">Stree</label>
+			<li><label for="bill-street">Street</label>
 			<input id="bill-street" name="street" type="text" placeholder="123 Main St" required></li>
 
 			<li><label for="bill-city">City</label>
